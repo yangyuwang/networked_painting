@@ -151,4 +151,4 @@ class FaceImage:
         plt.axis('off')
         plt.tight_layout()
         plt.savefig(output_path, dpi=300)
-        plt.close()
+        plt.show()
